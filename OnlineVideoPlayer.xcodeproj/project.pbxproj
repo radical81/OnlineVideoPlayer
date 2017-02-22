@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59DB85ED8F98BBFAB7215F97 /* libPods-OnlineVideoPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F159D9C6E54B2637D126E79E /* libPods-OnlineVideoPlayer.a */; };
+		864F613C1E5DB3E5009376BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864F613B1E5DB3E5009376BF /* AppDelegate.swift */; };
+		864F613E1E5DB3E5009376BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864F613D1E5DB3E5009376BF /* ViewController.swift */; };
+		864F61411E5DB3E5009376BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 864F613F1E5DB3E5009376BF /* Main.storyboard */; };
+		864F61441E5DB3E5009376BF /* OnlineVideoPlayer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 864F61421E5DB3E5009376BF /* OnlineVideoPlayer.xcdatamodeld */; };
+		864F61461E5DB3E5009376BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 864F61451E5DB3E5009376BF /* Assets.xcassets */; };
+		864F61491E5DB3E5009376BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 864F61471E5DB3E5009376BF /* LaunchScreen.storyboard */; };
+		864F61541E5DB3E5009376BF /* OnlineVideoPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864F61531E5DB3E5009376BF /* OnlineVideoPlayerTests.swift */; };
+		864F61631E5DB8B1009376BF /* YTPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864F61621E5DB8B1009376BF /* YTPlayerViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		864F61501E5DB3E5009376BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 864F61301E5DB3E5009376BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 864F61371E5DB3E5009376BF;
+			remoteInfo = OnlineVideoPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		528E56DA2EACF03820CCCA01 /* Pods-OnlineVideoPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnlineVideoPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OnlineVideoPlayer/Pods-OnlineVideoPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		864F61381E5DB3E5009376BF /* OnlineVideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnlineVideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		864F613B1E5DB3E5009376BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		864F613D1E5DB3E5009376BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		864F61401E5DB3E5009376BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		864F61431E5DB3E5009376BF /* OnlineVideoPlayer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OnlineVideoPlayer.xcdatamodel; sourceTree = "<group>"; };
+		864F61451E5DB3E5009376BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		864F61481E5DB3E5009376BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		864F614A1E5DB3E5009376BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		864F614F1E5DB3E5009376BF /* OnlineVideoPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnlineVideoPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		864F61531E5DB3E5009376BF /* OnlineVideoPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineVideoPlayerTests.swift; sourceTree = "<group>"; };
+		864F61551E5DB3E5009376BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		864F615F1E5DB596009376BF /* OnlineVideoPlayer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OnlineVideoPlayer-Bridging-Header.h"; sourceTree = "<group>"; };
+		864F61621E5DB8B1009376BF /* YTPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YTPlayerViewController.swift; sourceTree = "<group>"; };
+		EC147256135A94922A21CDF0 /* Pods-OnlineVideoPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnlineVideoPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-OnlineVideoPlayer/Pods-OnlineVideoPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		F159D9C6E54B2637D126E79E /* libPods-OnlineVideoPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OnlineVideoPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		864F61351E5DB3E5009376BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59DB85ED8F98BBFAB7215F97 /* libPods-OnlineVideoPlayer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		864F614C1E5DB3E5009376BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09F44C0698C333080BDB65DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F159D9C6E54B2637D126E79E /* libPods-OnlineVideoPlayer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E61475BAD59EE03EAB307AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				528E56DA2EACF03820CCCA01 /* Pods-OnlineVideoPlayer.debug.xcconfig */,
+				EC147256135A94922A21CDF0 /* Pods-OnlineVideoPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		864F612F1E5DB3E5009376BF = {
+			isa = PBXGroup;
+			children = (
+				864F613A1E5DB3E5009376BF /* OnlineVideoPlayer */,
+				864F61521E5DB3E5009376BF /* OnlineVideoPlayerTests */,
+				864F61391E5DB3E5009376BF /* Products */,
+				7E61475BAD59EE03EAB307AA /* Pods */,
+				09F44C0698C333080BDB65DC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		864F61391E5DB3E5009376BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				864F61381E5DB3E5009376BF /* OnlineVideoPlayer.app */,
+				864F614F1E5DB3E5009376BF /* OnlineVideoPlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		864F613A1E5DB3E5009376BF /* OnlineVideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				864F615E1E5DB57D009376BF /* Obj-C */,
+				864F613B1E5DB3E5009376BF /* AppDelegate.swift */,
+				864F613D1E5DB3E5009376BF /* ViewController.swift */,
+				864F613F1E5DB3E5009376BF /* Main.storyboard */,
+				864F61451E5DB3E5009376BF /* Assets.xcassets */,
+				864F61471E5DB3E5009376BF /* LaunchScreen.storyboard */,
+				864F614A1E5DB3E5009376BF /* Info.plist */,
+				864F61421E5DB3E5009376BF /* OnlineVideoPlayer.xcdatamodeld */,
+				864F61621E5DB8B1009376BF /* YTPlayerViewController.swift */,
+			);
+			path = OnlineVideoPlayer;
+			sourceTree = "<group>";
+		};
+		864F61521E5DB3E5009376BF /* OnlineVideoPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				864F61531E5DB3E5009376BF /* OnlineVideoPlayerTests.swift */,
+				864F61551E5DB3E5009376BF /* Info.plist */,
+			);
+			path = OnlineVideoPlayerTests;
+			sourceTree = "<group>";
+		};
+		864F615E1E5DB57D009376BF /* Obj-C */ = {
+			isa = PBXGroup;
+			children = (
+				864F615F1E5DB596009376BF /* OnlineVideoPlayer-Bridging-Header.h */,
+			);
+			name = "Obj-C";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		864F61371E5DB3E5009376BF /* OnlineVideoPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 864F61581E5DB3E5009376BF /* Build configuration list for PBXNativeTarget "OnlineVideoPlayer" */;
+			buildPhases = (
+				3EBAADD61F44F3C6664391ED /* [CP] Check Pods Manifest.lock */,
+				864F61341E5DB3E5009376BF /* Sources */,
+				864F61351E5DB3E5009376BF /* Frameworks */,
+				864F61361E5DB3E5009376BF /* Resources */,
+				D3790641BB75030007955FC4 /* [CP] Embed Pods Frameworks */,
+				73DC20B085DA25885D75A625 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OnlineVideoPlayer;
+			productName = OnlineVideoPlayer;
+			productReference = 864F61381E5DB3E5009376BF /* OnlineVideoPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		864F614E1E5DB3E5009376BF /* OnlineVideoPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 864F615B1E5DB3E5009376BF /* Build configuration list for PBXNativeTarget "OnlineVideoPlayerTests" */;
+			buildPhases = (
+				864F614B1E5DB3E5009376BF /* Sources */,
+				864F614C1E5DB3E5009376BF /* Frameworks */,
+				864F614D1E5DB3E5009376BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				864F61511E5DB3E5009376BF /* PBXTargetDependency */,
+			);
+			name = OnlineVideoPlayerTests;
+			productName = OnlineVideoPlayerTests;
+			productReference = 864F614F1E5DB3E5009376BF /* OnlineVideoPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		864F61301E5DB3E5009376BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Rex Jason Alobba";
+				TargetAttributes = {
+					864F61371E5DB3E5009376BF = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 98NZEPCGG6;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					864F614E1E5DB3E5009376BF = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 98NZEPCGG6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 864F61371E5DB3E5009376BF;
+					};
+				};
+			};
+			buildConfigurationList = 864F61331E5DB3E5009376BF /* Build configuration list for PBXProject "OnlineVideoPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 864F612F1E5DB3E5009376BF;
+			productRefGroup = 864F61391E5DB3E5009376BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				864F61371E5DB3E5009376BF /* OnlineVideoPlayer */,
+				864F614E1E5DB3E5009376BF /* OnlineVideoPlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		864F61361E5DB3E5009376BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				864F61491E5DB3E5009376BF /* LaunchScreen.storyboard in Resources */,
+				864F61461E5DB3E5009376BF /* Assets.xcassets in Resources */,
+				864F61411E5DB3E5009376BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		864F614D1E5DB3E5009376BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3EBAADD61F44F3C6664391ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		73DC20B085DA25885D75A625 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OnlineVideoPlayer/Pods-OnlineVideoPlayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3790641BB75030007955FC4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OnlineVideoPlayer/Pods-OnlineVideoPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		864F61341E5DB3E5009376BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				864F61631E5DB8B1009376BF /* YTPlayerViewController.swift in Sources */,
+				864F613E1E5DB3E5009376BF /* ViewController.swift in Sources */,
+				864F61441E5DB3E5009376BF /* OnlineVideoPlayer.xcdatamodeld in Sources */,
+				864F613C1E5DB3E5009376BF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		864F614B1E5DB3E5009376BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				864F61541E5DB3E5009376BF /* OnlineVideoPlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		864F61511E5DB3E5009376BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 864F61371E5DB3E5009376BF /* OnlineVideoPlayer */;
+			targetProxy = 864F61501E5DB3E5009376BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		864F613F1E5DB3E5009376BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				864F61401E5DB3E5009376BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		864F61471E5DB3E5009376BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				864F61481E5DB3E5009376BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		864F61561E5DB3E5009376BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		864F61571E5DB3E5009376BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		864F61591E5DB3E5009376BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 528E56DA2EACF03820CCCA01 /* Pods-OnlineVideoPlayer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 98NZEPCGG6;
+				INFOPLIST_FILE = OnlineVideoPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myspaceless.OnlineVideoPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OnlineVideoPlayer/OnlineVideoPlayer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		864F615A1E5DB3E5009376BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC147256135A94922A21CDF0 /* Pods-OnlineVideoPlayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 98NZEPCGG6;
+				INFOPLIST_FILE = OnlineVideoPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myspaceless.OnlineVideoPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OnlineVideoPlayer/OnlineVideoPlayer-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		864F615C1E5DB3E5009376BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 98NZEPCGG6;
+				INFOPLIST_FILE = OnlineVideoPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myspaceless.OnlineVideoPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnlineVideoPlayer.app/OnlineVideoPlayer";
+			};
+			name = Debug;
+		};
+		864F615D1E5DB3E5009376BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 98NZEPCGG6;
+				INFOPLIST_FILE = OnlineVideoPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myspaceless.OnlineVideoPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnlineVideoPlayer.app/OnlineVideoPlayer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		864F61331E5DB3E5009376BF /* Build configuration list for PBXProject "OnlineVideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				864F61561E5DB3E5009376BF /* Debug */,
+				864F61571E5DB3E5009376BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		864F61581E5DB3E5009376BF /* Build configuration list for PBXNativeTarget "OnlineVideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				864F61591E5DB3E5009376BF /* Debug */,
+				864F615A1E5DB3E5009376BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		864F615B1E5DB3E5009376BF /* Build configuration list for PBXNativeTarget "OnlineVideoPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				864F615C1E5DB3E5009376BF /* Debug */,
+				864F615D1E5DB3E5009376BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		864F61421E5DB3E5009376BF /* OnlineVideoPlayer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				864F61431E5DB3E5009376BF /* OnlineVideoPlayer.xcdatamodel */,
+			);
+			currentVersion = 864F61431E5DB3E5009376BF /* OnlineVideoPlayer.xcdatamodel */;
+			path = OnlineVideoPlayer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 864F61301E5DB3E5009376BF /* Project object */;
+}

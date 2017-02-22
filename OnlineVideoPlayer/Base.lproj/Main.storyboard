@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="LNa-wA-Osm">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="OnlineVideoPlayer" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8aG-An-jjE">
+                                <rect key="frame" x="98" y="135" width="156" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="156" id="Bp1-uY-ASP"/>
+                                </constraints>
+                                <state key="normal" title="Play MP4 Video Online"/>
+                                <connections>
+                                    <action selector="playMp4Video:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mfd-zj-E9j"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lJX-Ta-s5u">
+                                <rect key="frame" x="109.5" y="195" width="133" height="30"/>
+                                <state key="normal" title="Play Youtube Video"/>
+                                <connections>
+                                    <segue destination="9xu-VJ-Rd3" kind="show" id="Fdd-N2-OfD"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="8aG-An-jjE" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="71" id="KWN-sX-chA"/>
+                            <constraint firstItem="lJX-Ta-s5u" firstAttribute="top" secondItem="8aG-An-jjE" secondAttribute="bottom" constant="30" id="Qcj-zu-ASl"/>
+                            <constraint firstItem="8aG-An-jjE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kPR-Y0-mkE"/>
+                            <constraint firstItem="lJX-Ta-s5u" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="olJ-DO-8Lj"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="kZr-cG-l0q"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="138.98050974512745"/>
+        </scene>
+        <!--Player View Controller-->
+        <scene sceneID="fRX-gL-P0h">
+            <objects>
+                <viewController id="9xu-VJ-Rd3" customClass="YTPlayerViewController" customModule="OnlineVideoPlayer" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Qno-xH-Mci"/>
+                        <viewControllerLayoutGuide type="bottom" id="hf7-0J-BPq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kvM-ZP-gBI" customClass="YTPlayerView">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="ytPlayer" destination="kvM-ZP-gBI" id="Yvy-cS-xpu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UBD-bx-BHY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="852" y="65"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ocD-fd-pt1">
+            <objects>
+                <navigationController id="LNa-wA-Osm" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ph7-xC-J13">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="lDp-Mu-vxA"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="96e-10-SjE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
